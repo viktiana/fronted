@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1><i>User registration</i></h1>
+    <br>
+    <form name="registerForm">
+        <label>
+            Your name
+            <input type="text" placeholder="Enter your name" />
+        </label>
+        <br>
+        <br>
+        <label for="user_email">
+            Yout email
+            <input type="email" id="user_email" name="email" placeholder="Enter your email" /></label>
+        <br>
+        <br>
+        <label>
+            Password
+            <input type="password" minlength="6" maxlength="12" placeholder="Enter your password (6-12)" required />
+        </label>
+        <br>
+        <br>
+        <label>
+            Your age
+            <input type="number" name="age" value="0" min="0" max="100" />
+        </label>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+        <label>
+            <input type="radio"/>
+            Male
+            <input type="radio"/>
+            Female
+        </label>
+        </fieldset>
+        <br>
+        <br>
+        <label>
+            Your country
+            <select name="country">
+                <option value="ua" selected>Ukraine</option>
+                <option value="pl">Poland</option>
+                <option value="de">Germany</option>
+                <option value="cz">Czech Republic</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" />
+            I agree to the terms and conditions
+        </label>
+        <br>
+        <br>
+        <button type="subtim">Subtim</button>
+        <label></label>
+    </form>
+
+</body>
+
+</html>
