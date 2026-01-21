@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наші переваги</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0f172a;
+      color: #e5e7eb;
+    }
+
+    .advantages {
+      padding: 60px 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .advantages-list {
+      display: flex;
+      gap: 20px;
+    }
+
+    .adv-card {
+      flex: 1;
+      background-color: #020617;
+      padding: 30px 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .adv-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .adv-icon {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .adv-title {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .adv-text {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #9ca3af;
+    }
+
+    /* Адаптивність */
+    @media (max-width: 768px) {
+      .advantages-list {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="advantages">
+    <div class="container">
+      <h2 class="section-title">Наші переваги</h2>
+
+      <div class="advantages-list">
+        <div class="adv-card">
+          <div class="adv-icon">🎮</div>
+          <h3 class="adv-title">Максимальна продуктивність</h3>
+          <p class="adv-text">
+            Потужне залізо для сучасних ігор та складних задач розробки.
+          </p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">⚡</div>
+          <h3 class="adv-title">Швидкість і стабільність</h3>
+          <p class="adv-text">
+            Швидкі SSD, мінімальні затримки та стабільна робота системи.
+          </p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">🛠️</div>
+          <h3 class="adv-title">Ідеально для розробників</h3>
+          <p class="adv-text">
+            Підтримка Dev-середовищ, контейнерів, AI та важких збірок.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
